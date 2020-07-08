@@ -1,0 +1,278 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+
+/*
+@font-face{
+	src: url(../fonts/Lato-Regular.ttf);
+	font-family: Lato-Regular;
+}
+@font-face{
+	src: url(../fonts/Lato-Bold.ttf);
+	font-family: Lato-Bold;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family: Lato-Bold;
+	font-size: 30px;
+	font-weight: 700;
+	color: red;
+}
+p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+/*header start*/
+header{
+	/*border: 1px solid black;*/
+	padding: 30px 0;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+	float: left;
+	margin-top: 3px;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	padding: 10px 0;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: .3s;
+	border: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.b_img {
+	width: 100%;
+}
+/*banner start*/
+
+/*perfect start*/
+.perfect{
+	padding: 50px 0;
+}
+.container2{
+	/*border: 1px solid blue;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.p_wrapper{}
+.c_p{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin-bottom: 40px;
+	line-height: 25px;
+}
+/*perfect end*/
+
+/*blog start*/
+.blog{
+	padding-top: 50px 0;
+}
+.singel{
+	width: 47%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-bottom: 50px;
+}
+.singel:nth-child(even){
+	margin-left: 6%;
+}
+.singel img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+/*blog end*/
+
+/*newsletter start*/
+.news{
+	padding: 70px 0;
+	background-color: #F0F0F0;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	position: relative;
+	width: 400px;
+	/*border: 5px solid red;*/
+	margin: 0 auto;
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 352px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+/*newsletter start*/
+
+/*blog2 start*/
+.blog2{
+	padding-top: 50px;
+}
+/*blog2 end*/
+
+/*button start*/
+.load{
+	padding: 100px 0 200px;
+	text-align: center;
+}
+.load button{
+	width: 160px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	transition: .3s;
+}
+.load button:hover{
+	background-color: #626262;
+	color: white;
+}
+.load button:focus{
+	outline: 0 ;
+}
+/*button end*/
+
+/*footer start*/
+footer{
+	padding: 40px 0;
+ 	background-color: #f0f0f0;
+}
+.terms{
+	width: 40%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 3px;
+}
+.terms ul{}
+.terms ul li{
+	float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+.terms ul li:first-child{
+	margin-left: 0;
+}
+.terms ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+.social_media{
+	width: 20%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.social_media ul{
+	float: right;
+}
+.social_media ul li{
+	float: left;
+	margin-right: 25px;
+    list-style: none;
+}
+span{
+	color: #000000;
+	cursor: pointer;
+	transition: .3s;
+}
+span:hover{
+	color: #626262
+}
+.social_media ul li:last-child{
+	margin-right: 0;
+}
+.social_media ul li a{}
+.social_media ul li a img{}
+/*footer end*/
